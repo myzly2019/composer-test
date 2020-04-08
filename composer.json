@@ -1,6 +1,6 @@
 {
-    "name": "alisms-shanzheng/alisms-shanzheng",
-    "description": "善政科技公司内部的阿里短信 composer 包",
+    "name": "composer-test/composer-test",
+    "description": "开发 composer 包测试",
     "authors": [
         {
             "name": "chris yu",
@@ -9,12 +9,11 @@
     ],
     "minimum-stability": "dev",
     "prefer-stable": true,
-    "license": "MIT",
+    "license": "LGPL-3.0+",
     "require": {
         "php": "^7.1.3",
         "ext-curl": "*",
-        "ext-json": "*",
-        "alibabacloud/sdk": "^1.8"
+        "ext-json": "*"
     },
     "autoload": {
         "psr-4": {
