@@ -9,5 +9,6 @@ class ComposerTest1
     {
         echo '我总是这么帅' . PHP_EOL;
         echo "一次就好，我带你去看天荒地老" . PHP_EOL;
+        echo "在阳光灿烂的日子里开怀大笑" . PHP_EOL;
     }
 }
