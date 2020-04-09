@@ -2,6 +2,6 @@
 
 require __DIR__ . '/vendor/autoload.php';
 
-$model = new \Test\Test();
+$model = new \ComposerTest\ComposerTest1();
 
 $model->index();

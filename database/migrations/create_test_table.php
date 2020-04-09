@@ -13,7 +13,7 @@ class CreateAlismsLogTable extends Migration
      */
     public function up()
     {
-        $table_name = config('test.table_name');
+        $table_name = config('composer_test.table_name');
 
         Schema::create($table_name, function (Blueprint $table) {
             $table->increments('id');
@@ -33,7 +33,7 @@ class CreateAlismsLogTable extends Migration
      */
     public function down()
     {
-        $table_name = config('test.table_name');
+        $table_name = config('composer_test.table_name');
 
         Schema::drop($table_name);
     }
