@@ -30,7 +30,7 @@
   },
   "scripts": {
     "post-package-install": [
-      "@php artisan vendor:publish --provider=\"ComposerTest\\Provider\\ComposerTestServiceProvider\""
+      "@php artisan vendor:publish --provider=ComposerTest\\Provider\\ComposerTestServiceProvider"
     ]
   }
 }
